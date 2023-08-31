@@ -38,7 +38,7 @@ class Main {
       System.out.println(c);
     }*/
     
-    /* 3)
+    /* 4)
     int a = -3;
 
     if(a>0){
@@ -57,5 +57,26 @@ class Main {
       System.out.println(a + 8);
     }
     */
+
+    /* 6)
+    int a = 50;
+    int b = 1;
+    int c = 14;
+    int min = Math.min(Math.min(a, b), c);
+    int max = Math.max(Math.max(a, b), c);
+    int middle = a + b + c - min - max;
+
+     System.out.println(min + middle + max);
+    */
+    
+    /* 7)
+    boolean a = true;
+    boolean b = false;
+
+    if(a && b){
+      System.out.println("ambos são verdadeiros");
+    }else{
+      System.out.println("ambos não são verdadeiros");
+      */
     }
   }
